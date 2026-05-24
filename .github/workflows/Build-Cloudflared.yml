@@ -1,8 +1,8 @@
 name: Build cloudflared
 
 on:
-  watch:
-    types: [started]
+  push:
+    branches: [ main ]
 
 jobs:
   build:
